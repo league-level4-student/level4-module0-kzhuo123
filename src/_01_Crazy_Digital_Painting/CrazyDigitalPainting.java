@@ -22,7 +22,7 @@ final static int height=500;
 		//   colors[i][j] = new Color(i % 256, (i * j) % 256, j % 256);
 			for (int i = 0; i < objects.length; i++) {
 				for (int j = 0; j < objects[i].length; j++) {
-					objects[i][j] = new Color(i % 256, (i * j) % 256, j % 256);
+					objects[i][j] = new Color(i % 256, (i * j) % 134, j % 69);
 				}
 			}
 		//5. Come up with your own pattern to make a cool crazy image.
