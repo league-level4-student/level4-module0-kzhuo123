@@ -107,12 +107,14 @@ public class WorldPanel extends JPanel implements MouseListener, ActionListener 
 		int[][] livingNeighbors = new int[cellsPerRow][cellsPerRow];
 		for (int i = 0; i < Cells.length; i++) {
 			for (int j = 0; j < Cells[i].length; j++) {
-				
+				livingNeighbors[i][j]=getLivingNeighbors(i,j);
 			}
 		}
 		//8. check if each cell should live or die
 	
-		
+		if () {
+			
+		}
 		
 		
 		repaint();
@@ -123,6 +125,9 @@ public class WorldPanel extends JPanel implements MouseListener, ActionListener 
 	//   living neighbors there are of the 
 	//   cell identified by x and y
 	public int getLivingNeighbors(int x, int y){
+		int count=0;
+		
+		
 		return 0;
 	}
 
